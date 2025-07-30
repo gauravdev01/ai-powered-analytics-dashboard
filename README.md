@@ -111,10 +111,3 @@ The dashboard automatically loads CSV files from the `public/data/` directory. S
 9. **Bubble Chart**: Three-dimensional data
 10. **Box Plot**: Statistical distribution
 
-
-## 🙏 Acknowledgments
-
-- Built with [Next.js](https://nextjs.org/)
-- UI components from [shadcn/ui](https://ui.shadcn.com/)
-- Charts powered by [Recharts](https://recharts.org/)
-- Deployed on [Vercel](https://vercel.com/) 
