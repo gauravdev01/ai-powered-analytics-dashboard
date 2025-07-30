@@ -2,11 +2,8 @@
 
 A comprehensive, interactive dashboard for analyzing Vehicle, Health, Population, and Air Quality data with AI-powered insights.
 
-## 🚀 Live Demo
 
-**Deployed on Vercel**: [https://entiredashboard.vercel.app](https://entiredashboard.vercel.app)
-
-## ✨ Features
+## Features
 
 - **Multi-Dataset Analysis**: Process and visualize data from multiple CSV sources
 - **Interactive Charts**: 10+ chart types including Bar, Line, Pie, Area, Scatter, HeatMap, and more
@@ -15,14 +12,14 @@ A comprehensive, interactive dashboard for analyzing Vehicle, Health, Population
 - **Responsive Design**: Modern, dark-themed UI that works on all devices
 - **Data Export**: Download filtered data and insights
 
-## 📊 Data Sources
+##  Data Sources
 
 - **Vehicle Data** (`vahan.csv`): Vehicle registration and traffic statistics
 - **Health Data** (`idsp.csv`): Disease surveillance and health metrics
 - **Population Data** (`population_projection.csv`): Demographic projections
 - **Air Quality Data** (`aqi.csv`): Environmental air quality measurements
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - **Framework**: Next.js 13.5.1 with TypeScript
 - **UI Components**: shadcn/ui with Radix UI primitives
@@ -31,7 +28,7 @@ A comprehensive, interactive dashboard for analyzing Vehicle, Health, Population
 - **Data Processing**: PapaParse for CSV handling
 - **Deployment**: Vercel
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -42,8 +39,8 @@ A comprehensive, interactive dashboard for analyzing Vehicle, Health, Population
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Kotasrinuaa/ai-powered-dashboard.git
-cd ai-powered-dashboard
+git clone https://github.com/gauravdev01/ai-powered-analytics-dashboard
+cd ai-powered-analytics-dashboard
 ```
 
 2. Install dependencies:
@@ -65,7 +62,7 @@ npm run build
 npm start
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 entire_dashboard/
@@ -85,7 +82,7 @@ entire_dashboard/
 └── types/                # TypeScript type definitions
 ```
 
-## 🎯 Key Components
+##  Key Components
 
 - **DashboardClient**: Main dashboard with tabs and layout
 - **Chart Components**: 10+ different chart types for data visualization
@@ -93,7 +90,7 @@ entire_dashboard/
 - **FilterSidebar**: Dynamic data filtering interface
 - **DataSummary**: Statistical summaries and metrics
 
-## 🔧 Configuration
+##  Configuration
 
 The dashboard automatically loads CSV files from the `public/data/` directory. Supported formats:
 - Vehicle data (vahan.csv)
@@ -101,7 +98,7 @@ The dashboard automatically loads CSV files from the `public/data/` directory. S
 - Population data (population_projection.csv)
 - Air quality data (aqi.csv)
 
-## 📈 Chart Types Available
+##  Chart Types Available
 
 1. **Bar Chart**: Categorical data comparison
 2. **Line Chart**: Time series and trends
@@ -114,21 +111,6 @@ The dashboard automatically loads CSV files from the `public/data/` directory. S
 9. **Bubble Chart**: Three-dimensional data
 10. **Box Plot**: Statistical distribution
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👨‍💻 Author
-
-**Kota Srinuaa** - [GitHub](https://github.com/Kotasrinuaa)
 
 ## 🙏 Acknowledgments
 
